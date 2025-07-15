@@ -8,12 +8,18 @@
 
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="html.html" class="saw">HTML</a></li>
-      <li><a href="css.html" class="saw">CSS</a></li>
-      <li><a href="javascript.html" class="saw" id="active">JavaScript</a></li>
-    </ol>
-    <h2>JavaScript</h2>
-    <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.</p>
+    <input type="button" value="night" onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white';" >
+    <input type="button" value="day" onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black';" >
+    <div id="grid">
+      <ol>
+        <li><a href="html.html" class="saw">HTML</a></li>
+        <li><a href="css.html" class="saw">CSS</a></li>
+        <li><a href="javascript.html" class="saw" id="active">JavaScript</a></li>
+      </ol>
+      <div id="article">
+        <h2>JavaScript</h2>
+        <p>JavaScript, often abbreviated as이 JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.</p>
+      </div>
+    </div>
 </body>
 </html>
