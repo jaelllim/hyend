@@ -19,7 +19,9 @@
   justify-content: center;
   margin-top: 20px;
   font-family: sans-serif;
+  min-width: 500px;
 }
+
 
 .game-board {
   margin-right: 20px;
@@ -31,7 +33,48 @@
   font-weight: bold;
 }
 
+
 body {
-  background-color: lemonchiffon;
-  background-color:
+  margin: 0;
+  padding: 0;
+  background-color: darkblue;
+  background-image: radial-gradient(yellow 3px, transparent 3px);
+  background-size: 30px 30px;
+  background-repeat: repeat;
+}
+
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 2rem;
+  color: midnightblue;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cell:hover {
+  background-color: lightyellow;
+  transform: scale(2);
+}
+
+
+h1, .status {
+  text-align: center;
+  color: yellow;
+  text-shadow: 1px 1px 3px black;
 }
