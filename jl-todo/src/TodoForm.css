@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  .todoForm {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todoForm input {
+    display: flex;
+    width: 70%;
+    height: 34px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+
+  .todoForm button {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .todoForm {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todoForm input {
+    display: flex;
+    width: 50%;
+    height: 34px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+
+  .todoForm button {
+    display: flex;
+    width: 5%;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1025px) {
+  .todoForm {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todoForm input {
+    display: flex;
+    width: 30%;
+    height: 34px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+
+  .todoForm button {
+    display: flex;
+    width: 5%;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  }
+}
