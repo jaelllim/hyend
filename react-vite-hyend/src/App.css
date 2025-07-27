@@ -37,9 +37,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: darkblue;
-  background-image: radial-gradient(yellow 3px, transparent 3px);
-  background-size: 30px 30px;
+  background-color: white;
+  background-image: radial-gradient(lightpink 12px, transparent 6px);
+  background-size: 80px 80px;
   background-repeat: repeat;
 }
 
@@ -53,20 +53,6 @@ body {
 }
 
 
-.cell {
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  font-size: 2rem;
-  color: midnightblue;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 100px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
 .cell:hover {
   background-color: lightyellow;
   transform: scale(2);
@@ -77,4 +63,12 @@ h1, .status {
   text-align: center;
   color: yellow;
   text-shadow: 1px 1px 3px black;
+}
+
+.center-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }
